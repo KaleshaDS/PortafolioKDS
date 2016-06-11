@@ -1,0 +1,191 @@
+*{
+   font-family: 'Josefin Sans', sans-serif;
+   box-sizing:border-box;
+}
+
+#section1 .layer {
+   position: absolute;
+   z-index: 5;
+   width: 100%;
+   left: 0;
+   top: 43%;
+   height: 100%;
+}
+#infoMenu li a{
+color: #fff;
+}
+.section {
+    /* the important one*/
+   text-align:center;
+   background-attachment: fixed; 
+   background-size: auto 80%;
+   background-position: 50% 0%;
+   background-repeat: no-repeat;
+}
+/*********************Introduction*****************/
+#section1 {
+   background: url(../images/background/flowers.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+h1{
+   font-family: 'Pacifico', cursive;
+   font-size: 100px;
+   color: #424242;
+}
+.intro{
+   width: 450px;
+   position: relative;  
+   left:50px;
+   top: 150px;
+   font-size: 18px;
+}
+blockquote{
+   color: #000000;
+}
+/********************About me**********************/
+#section2 {
+   background: url(../images/background/intento.jpg); 
+   background-size: cover;  
+}
+.presentation{
+   position: relative;  
+   left: 350px;
+   font-size: 20px;
+   width: 800px;
+}
+.secti{
+   font-size: 50px;
+   position: relative;
+   left: 55px;
+}
+
+
+/***************************Skills*****************************/
+#section3{ 
+   background: url(../images/background/tile2.png);
+}
+.sect1{
+   font-size: 50px;
+   position: relative;
+   left: 10px;
+}
+.contenedor {
+   margin:5% 5%;
+   position: relative;
+   left: 80%;
+}
+.contenedor img {
+  position: absolute;
+  left: 0;
+  transition: opacity 0.5s ease-in-out;
+  width: 100px;
+}
+.contenedor img.top:hover {
+  opacity: 0;
+}
+#ex4 {
+   height: 5em;
+   line-height: 0px;
+   color: transparent; 
+   font-size: 25px;
+   font-weight: 100;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -ms-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+#ex4:hover {
+   line-height: 20px;
+   color: #000000;
+}
+#ex4 img{ 
+   float: left;
+   margin: 0 15px;
+}
+a{
+   text-decoration:none;
+}
+
+/***************************Works****************************/
+#section4{ 
+   background-color: #DFDFDF;
+}
+.sect2{
+   font-size: 50px;
+   position: relative;
+   left: 5px;
+}
+.caja2{
+   position: relative;
+   width: 300px;
+   margin: 15px auto;
+}
+.caja2 img{
+   position: relative;
+   z-index:2; /*Imagen apilada en segunda posición*/
+   border: 1px solid #333;
+   box-shadow: 1px 1px 4px #333;
+}
+.disco{
+   position: absolute;
+   top:0;
+   left:0px;
+   z-index:1; /*La imagen del disco por debajo de la principal*/
+   display:block;
+   width: 200px;
+   height:200px;
+   background:url(../images/Circulito.png) no-repeat scroll center center transparent;
+   -moz-transition:all linear 0.5s 0s;
+   -webkit-transition:all linear 0.5s 0s;
+   transition:all ease 0.5s 0s;
+}
+.info2{
+   position: absolute;
+   z-index: 3; /*Los datos por encima de todo lo demás*/
+   top: 30%;
+   zoom: 1;
+   filter: alpha(opacity=0);
+   opacity: 0;
+   padding: 5px;
+   text-align: center;
+   color: #eee;
+   background: #333;
+   background: rgba(0,0,0,.7);
+   -moz-transition:all linear 0.5s 0s; 
+   -webkit-transition:all linear 0.5s 0s;
+   transition:all ease 0.5s 0s;
+}
+.caja2:hover .info2, .caja2:hover .disco{
+   filter: alpha(opacity=100);
+   opacity:1;
+}
+.caja2:hover .disco{
+   right:100px; /*Para hacer "salir" parcialmente el disco*/
+   -moz-transform:rotate(180deg); /*Y además lo hace girando*/
+   -webkit-transform:rotate(180deg);
+   transform:rotate(180deg);
+}
+.portafolio{
+   width: 300px;
+   height: 200px;
+}
+
+/******************Seccion de contacto*********************/
+.contact{
+  /* background: url(../images/background/tile2.png);
+   background-repeat: repeat;
+   background-attachment: fixed;
+   background-position: 50px left;
+   width: auto;
+   height: auto;*/
+   background-color: #000000;
+}
+#github,#facebook,#twitter,#instangram, #linkedin,#correo{
+   width: 50px;
+   margin-top: 3em;
+   padding-bottom: 3em;
+   color: #FFFFFF;
+
+}
