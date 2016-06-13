@@ -68,6 +68,6 @@ window.location = "http://kaleshads.github.io/PortafolioKDSMobile/";
 }
 else
 {
-window.location = "http://kaleshads.github.io/PortafolioKDS";
+
 }
 
