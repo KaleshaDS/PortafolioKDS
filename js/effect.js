@@ -1,10 +1,10 @@
 
 /***Efectos de textos***/
-$(document).ready(function() {
-	$(".name").addClass("animated fadeInUp");
-    $(".title").addClass("animated fadeInDown");
-    $("blockquote").addClass("animated fadeInRight");
-});
+// $(document).ready(function() {
+// 	$(".name").addClass("animated fadeInUp");
+//     $(".title").addClass("animated fadeInDown");
+//     $("blockquote").addClass("animated fadeInRight");
+// });
 
 /*****************************Navbar**************************/
 function openNav() {
